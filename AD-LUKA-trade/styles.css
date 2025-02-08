@@ -1,0 +1,45 @@
+* {
+    font-family: "Yrsa", serif;
+  }
+  body {
+    margin: 30px 30px;
+  }
+  
+  #title, #description {
+    text-align: center;
+  }
+  
+  #description {
+    font-style: italic;
+    font-size: 1.2em;
+    }
+   
+  
+  #image {
+    display: block;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+  #img-div{
+    padding-bottom: 20px;
+    border: rgb(170, 170, 170) solid 5px;
+  }
+  li {
+    list-style: none;
+    padding: 10px;
+    font-style: italic;
+  }
+  a {
+    text-decoration: none;
+  }
+  #main {
+    width: 100%;
+    background: rgb(221, 221, 221);
+    padding: .5%;
+    }
+    img {
+    display: block;
+    justify-content: center;
+  }
