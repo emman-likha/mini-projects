@@ -36,13 +36,14 @@
         </label>
         </fieldset>
        <fieldset><legend id="survey-header">Decide Now!</legend><label for="dropdown" >What do you want to be?
-          <select id="dropdown">
+          <label id="dropdowneffect">
+            <select id="dropdown">
             <option class="option1">(choose any)</option>
             <option>Front End Developer</option>
             <option>Back End Developer</option>
             <option>Full Stack Developer</option>
             <option>I have no idea </option>
-          </select>
+          </select></label>
           </label></fieldset>
           <!--Confidence Level-->
          <fieldset>
@@ -100,18 +101,22 @@
       </fieldset>
 
       </div>
-      <div>
-        <hr>
-        <label><label class="forBlock"> Any recommendations about the survey form?
+      <div id="last-part">
+        
+        <label><label class="forBlock" class="recommendations"> Any recommendations about the survey form?
         </label>
-        <textarea cols="50" rows="3"required placeholder="Write your suggestion/s here..."></textarea>
+        <textarea cols="20" rows="3"required placeholder="Write your suggestion/s here..."></textarea>
         </label>
-        <label for="email" id="email-label">Email: 
-        <input required type="email" id="email" placeholder="lorenipsum@gmail.com"></input>
         <label>
-        <button id="submit" type="submit">Submit</button>
-      </label>
-        </label></fieldset>
+            <label for="email" id="email-label">Email: 
+                <input required type="email" id="email" placeholder="lorenipsum@gmail.com"></input>
+            </label>
+                <label>
+                <button id="submit" type="submit">Submit</button>
+              </label>
+        </label>
+      </div>
+        
     </form>
     </body>
   <footer>John Emmanuel S. Bulaon 2025</footer>
