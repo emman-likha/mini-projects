@@ -6,6 +6,115 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+</style>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">2025 Techy-Goal Survey</h1>
+    <p id="description">
+      stop making excuses, push your limit this year!</p>
+      <h2>Let's see if you have the guts!</h2>
+    <form id="survey-form">
+      <div> 
+        <fieldset><legend id="survey-headeR">SURVEY FORM</legend>
+          <fieldset><label for="name" id="name-label"><legend>Name:</legend>
+          <hr> 
+        <input required type="text" id="name" placeholder="Enter your name here...">
+      </label>
+        </fieldset>
+        <fieldset><label for="number" id="number-label"><legend>Age:</legend>
+        <hr> 
+          <input required type="number" id="number" min="10" max="50" placeholder="Age">
+        </label>
+        </fieldset>
+       <fieldset><legend id="survey-header">Decide Now!</legend><label for="dropdown" >What do you want to be?
+          <select id="dropdown">
+            <option class="option1">(choose any)</option>
+            <option>Front End Developer</option>
+            <option>Back End Developer</option>
+            <option>Full Stack Developer</option>
+            <option>I have no idea </option>
+          </select>
+          </label></fieldset>
+          <!--Confidence Level-->
+         <fieldset>
+           <legend id="survey-header">confidence level test :>
+             </legend>
+              <label>Do you believe in yourself?
+          </label>
+          
+            <label id="confidence">
+            <input type="radio" name="confidence-level" value="yes">YES
+                </label>
+            <label id="confidence">
+            <input type="radio" name="confidence-level" value="no">NO
+             </label>
+          
+         </fieldset>
+      <fieldset><legend id="survey-header">strong or weak?</legend>
+      Check all the skill you have. Be honest, future <span>Full Stack Developer!</span>
+        <label class="text-box">
+          
+            <label id="confidence">
+            <input type="checkbox" name="check" value="0">Time Management
+        </label>
+            <label id="confidence">
+            <input type="checkbox" name="check" value="1">Self Confidence
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="3">Patience & Persistence
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="4">Logical Thinking
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="5">Attention to Detail
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="6">Resilience to Failure
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="7">Creativity
+        </label>
+        <label id="confidence">
+            <input type="checkbox" name="check" value="8">Adaptability
+            </label>    
+
+            <label id="confidence">
+            <input type="checkbox" name="check" value="9">Willingness
+            </label>
+
+            <label id="confidence">
+            <input type="checkbox" name="check" value="10">Quality Worker
+            </label>    
+     </label>
+      
+      </fieldset>
+
+      </div>
+      <div>
+        <hr>
+        <label><label class="forBlock"> Any recommendations about the survey form?
+        </label>
+        <textarea cols="50" rows="3"required placeholder="Write your suggestion/s here..."></textarea>
+        </label>
+        <label for="email" id="email-label">Email: 
+        <input required type="email" id="email" placeholder="lorenipsum@gmail.com"></input>
+        <label>
+        <button id="submit" type="submit">Submit</button>
+      </label>
+        </label></fieldset>
+    </form>
+    </body>
+  <footer>John Emmanuel S. Bulaon 2025</footer>
+  <html>
 </body>
 </html>
