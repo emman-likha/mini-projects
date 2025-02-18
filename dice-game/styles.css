@@ -1,0 +1,48 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 1rem;
+   
+}
+
+.text-align {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.boxStyle1, .boxStyle2 {
+    background-color: burlywood;
+    width: max-content;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.visible {
+    visibility : hidden;
+}
